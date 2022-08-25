@@ -39,7 +39,6 @@ while True:
             print(f"At the moment we have {telephone[0]} pieces {phone} ")
             phone2 = int(input('How many do you want to buy? '))
             tel2 = int(telephone2[0]) * int(phone2)
-            # print(tel2)
             if phone2 <= telephone[0]:
                 count_total=int(telephone[0])- int(phone2)
                 name =input("Your name: ")
