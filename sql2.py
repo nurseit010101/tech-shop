@@ -21,9 +21,7 @@ while True:
         cursor.execute(query)
         product = []
         for i in cursor:
-            # print(*i)
             product.append(*i)
-        # print(*product)
         for n in product:
             print(n)
         
@@ -124,27 +122,4 @@ while True:
     elif num != "Admin" and "Client":
         print("Choose correct variant: Admin or Client" )
 
-    
-    
-
-print(7542)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
